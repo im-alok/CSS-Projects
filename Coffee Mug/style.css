@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(white 0%,pink 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 420px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+#image{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 45%;
+}
+.data{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    text-align: left;
+    font-size: 0.7em;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 1.1em;
+    width: 65%;
+}
+p{
+    color: grey;
+    font-size: 0.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.buy{
+    background-color: darkgreen;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buy:hover{
+    background-color: hsl(156, 24%, 24%);
+}
+#cart{
+    font-size: 0.6em;
+    color: white;
+    padding: 10px;
+}
+#cartimage{
+    height: 40%;
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color: hsl(156, 24%, 24%);
+}
+h3 span{
+    font-size: 0.6em;
+    color: grey;
+}

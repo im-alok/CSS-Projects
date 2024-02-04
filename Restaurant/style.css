@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400;1,500&display=swap');
+
+/*Importing FONTS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    flex-wrap: wrap;
+}
+
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: whitesmoke;
+}
+#head{
+    margin: 20px;
+}
+#head .top{
+
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+}
+#head .top #logo{
+        padding-left: 80px;
+        width: 250px;
+        height: 76px;
+}
+#head .top #rightimg{
+    padding-top: 20px;
+    width: 76px;
+    height: 40px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+
+.container #description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#description .heroimg{
+    width: 50%;
+    
+}
+
+#description .heroimg img{
+    width: 412px;
+    height: 414px;
+    padding-left: 100px;
+    flex-shrink: 0;
+}
+
+#description .aboutrestaurant{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#description .aboutrestaurant .discount{
+    box-sizing: border-box;
+    
+    width: 199px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    background-color: green;
+    padding-top: 12px;
+    padding-left: 28px;
+}
+.aboutrestaurant h1{
+    width: 562px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 65px;
+    font-style:normal;
+    font-weight: 500;
+}
+.aboutrestaurant p{
+    width: 363px;
+    height: 35px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+}
+.aboutrestaurant .explore{
+    box-sizing: border-box;
+    width: 180px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    background-color: rgb(235, 163, 29);
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.container hr{
+    color: grey;
+    width: 10px;
+}
+.container .photos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.container .photos .menu{
+    align-self: center;
+    background-color:#149F39;
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.photos p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-self: center;
+    width: 287px;
+    height: 55px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.images{
+   
+    box-sizing: border-box;
+    width: 1440px;
+    height: 890px;
+    
+}
+#img1{
+    margin-left:50px;
+    width: 585px;
+    height: 585px;
+}
+#img2{
+    width: 276px;
+    height: 585px;
+    margin-left: 30px;
+}
+#img3{
+    position:relative;
+    width: 277px;
+    height: 274px;
+    margin-left: 30px;
+    bottom: 310px;
+
+}
+#img4{
+    position: relative;
+    left: 50px;
+    bottom: 290px;
+    width: 277px;
+    height: 277px;
+    
+
+}
+#img5{
+    position: relative;
+    left: 77px;
+    bottom: 290px;
+    width: 277px;
+    height: 277px;
+}
+#img6{
+    position: relative;
+    left: 105px;
+    bottom: 290px;
+    width: 276px;
+    height: 278px;
+}
+#img7{
+    position: relative;
+    left: 136px;
+    bottom: 290px;
+    width: 277px;
+    height: 581px;
+
+}
+#foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 100vw;
+    height: 300px;
+}
+#foot img{
+    position: relative;
+    width: 201px;
+    height: 76px;
+    top: 40px;
+    right: 400px;
+
+}
